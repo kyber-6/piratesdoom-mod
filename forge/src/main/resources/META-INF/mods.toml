@@ -7,11 +7,12 @@ license = "GNU GPLv3"
 modId = "piratesdoom"
 version = "${version}"
 displayName = "Pirate's Doom"
-authors = ["Kyber_6", "Pixel Dream Studios"]
+authors = "Kyber_6, Pixel Dream Studios"
+displayURL="https://modrinth.com/mod/pirates-doom"
 description = '''
 Introducing the Pirate's Doom mod – because nothing says "game over" to piracy like a fiery descent into the depths of hell!
 '''
-logoFile = "assets/piratesdoom/icon.gif"
+logoFile = "icon.gif"
 
 [[dependencies.piratesdoom]]
 modId = "forge"
