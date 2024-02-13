@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/kyber-6/piratesdoom-mod/issues"
+license = "GNU GPLv3"
+
+[[mods]]
+modId = "piratesdoom"
+version = "${version}"
+displayName = "Pirate's Doom"
+authors = ["Kyber_6", "Pixel Dream Studios"]
+description = '''
+Introducing the Pirate's Doom mod – because nothing says "game over" to piracy like a fiery descent into the depths of hell!
+'''
+logoFile = "assets/piratesdoom/icon.gif"
+
+[[dependencies.piratesdoom]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.piratesdoom]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

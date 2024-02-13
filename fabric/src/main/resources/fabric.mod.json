@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "piratesdoom",
+  "version": "${version}",
+  "name": "Pirate's Doom",
+  "description": "Introducing the Pirate's Doom mod – because nothing says \"game over\" to piracy like a fiery descent into the depths of hell!",
+  "authors": [
+    "Kyber_6",
+    "Pixel Dream Studios"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/pirates-doom",
+    "sources": "https://github.com/kyber-6/piratesdoom-mod",
+    "issues": "https://github.com/kyber-6/piratesdoom-mod/issues"
+  },
+  "license": "GNU GPLv3",
+  "icon": "assets/piratesdoom/icon.gif",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.piratesdoom.fabric.PiratesDoomFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
